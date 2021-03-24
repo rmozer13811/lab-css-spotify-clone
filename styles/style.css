@@ -6,3 +6,152 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  font-family: 1a1a1a;
+}
+nav {
+  background-color: #fff;
+  height: 90px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+nav img {
+  height: 60px;
+  margin-left: 20px;
+  padding: 15px;
+  width: 200px;
+}
+
+.nav-menu ul {
+  float: right;
+  justify-content: flex-end;
+  display: inline;
+  list-style: none;
+  right: 0;
+}
+
+.nav-menu li {
+  display: inline;
+  font-size: 20px;
+  line-height: 90px;
+  padding: 0 18px;
+}
+
+.landing {
+  background-image: url(/images/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+
+.texto {
+  color: #fff;
+}
+
+.landing h1 {
+  font-size: 75px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.landing h2 {
+  font-size: 28px;
+}
+
+.item3 img {
+  width: 100px;
+}
+
+.item3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item3 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  color: #00b172;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.item3 div p:last-child {
+  font-size: 26px;
+  margin-top: 2px;
+  line-height: 100px;
+}
+
+.whatson {
+  display: flex;
+  justify-content: center;
+}
+.whatson p {
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: underline #00b172;
+}
+
+.greensection {
+  background-color: #00b172;
+  height: 1000px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lasttext {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.whitetittle {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.lasttext div p:last-child {
+  font-size: 20px;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alllasttext {
+  color: #fff;
+  margin: 50px;
+}
+.kanye {
+  font-size: 48px;
+  text-decoration: underline #fff;
+}
+
+.app {
+  width: 500px;
+  height: 850px;
+  margin: 50px;
+}
